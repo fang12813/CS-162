@@ -1,7 +1,6 @@
-Program Name:
+Program Name:CS162CSII, Assignment 1- Classes
 
-Program Description:
-
+Program Description: Writing a program  to keep track of a list of proposed task assignments for a fictional space station and generate some reports from the data.this assignment is to do data modeling using Classes, private data members, and public member functions.
 
 Design:
 A. INPUT
