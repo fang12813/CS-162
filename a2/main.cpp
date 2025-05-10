@@ -1,9 +1,13 @@
+
 //*****************************************************************************
-// Author: 
-// Assignment:
-// Date:
-// Description:
-// Sources: 
+// Author: fang huang
+// Assignment: Assignment 2 - Dynamic Memory 
+// Date:May 09 2025
+// Description:  Writing a program  to keep track of a list of proposed 
+// task assignments for a fictional space station and generate some reports 
+// from the data.this assignment is to do data modeling using Classes, private data members, 
+// and public member functions.
+// Sources: Assignment 2 and zybooks
 //*****************************************************************************
 
 #include <iostream>
@@ -224,23 +228,23 @@ char menu() {
 void menu_do(char c) {
     switch(c) {
       case 'a':
-        cout << "TODO: Add" << endl;
+        cout << "Add a new task" << endl;
         break;
 
       case 'b':
-        cout << "TODO: List by name" << endl;
+        cout << "List tasks by name" << endl;
         break;
 
      case 'c':
-        cout << "TODO: List by type" << endl;
+        cout << "List tasks by type" << endl;
         break;
 
      case 'd':
-        cout << "TODO: Search by task name" << endl;
+        cout << "Search by task name" << endl;
         break;
 
      case 'e':
-        cout << "TODO: Remove by index" << endl;
+        cout << "Remove tasks by index" << endl;
         break;
 
      case 'q':
@@ -251,12 +255,6 @@ void menu_do(char c) {
         cout << "ERROR: Unsupported option: " << c << endl;
     }
 }
-
-
-
-
-
-
 
 
 
